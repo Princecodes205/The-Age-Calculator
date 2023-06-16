@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/query.css" />
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <main>
+      <section class="input_sec">
+        <div class="inputs">
+          <h1 class="texterror">DAY</h1>
+          <input
+            type="text"
+            maxlength="2"
+            placeholder="DD"
+            id="day_input "
+            class="day_input"
+          />
+          <div class="errors"></div>
+        </div>
+
+        <div class="inputs">
+          <h1 class="texterror">MONTH</h1>
+          <input
+            type="text"
+            placeholder="MM"
+            id="month_input "
+            class="month_input"
+            maxlength="2"
+          />
+          <div class="errors"></div>
+        </div>
+
+        <div class="inputs">
+          <h1 class="texterror">YEAR</h1>
+          <input
+            maxlength="4"
+            type="text"
+            placeholder="YYYY"
+            id="year_input "
+            class="year_input"
+          />
+          <!-- <div class="errors"></div> -->
+          <div class="errors"></div>
+        </div>
+      </section>
+      <section class="div">
+        <hr class="hr" />
+        <button class="btn">
+          <img
+            src="./assets/images/icon-arrow.svg"
+            alt="Check Button"
+            class="svg"
+          />
+          <img
+            src="./assets/images/icon-arrow reset.svg"
+            alt="Reset Button"
+            class="reset hidden"
+          />
+          <img
+            src="./assets/images/icon-arrow calc.svg"
+            alt=""
+            class="calcb hidden"
+          />
+        </button>
+      </section>
+
+      <section class="results">
+        <h2><span class="val animate">--</span> years</h2>
+        <h2><span class="val">--</span> months</h2>
+        <h2><span class="val">--</span> days</h2>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Prince Createz</a>.
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
