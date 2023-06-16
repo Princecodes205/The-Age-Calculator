@@ -45,8 +45,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://)
-- Live Site URL: [Add live site URL here](https://princecreatez-agecalculator.vercel.app)
+- Solution URL: [The Solution](https://)
+- Live Site URL: [The Live Site](https://princecreatez-agecalculator.vercel.app)
 
 ### Built with
 
