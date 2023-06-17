@@ -26,6 +26,7 @@ const checkErrors = function () {
       error[0].textContent = "Must be a valid date";
       inputs[0].classList.add("inputerr");
       textError[0].style.color = " hsl(0, 100%, 67%)";
+      resultsValues[2].textContent = "--";
     }
   };
   const checkMonth = function () {
@@ -33,6 +34,7 @@ const checkErrors = function () {
       error[1].textContent = "Must be a valid Month";
       inputs[1].classList.add("inputerr");
       textError[1].style.color = " hsl(0, 100%, 67%)";
+      resultsValues[1].textContent = "--";
     }
   };
   const checkYear = function () {
@@ -44,6 +46,9 @@ const checkErrors = function () {
       error[2].textContent = "Must be a valid Year";
       inputs[2].classList.add("inputerr");
       textError[2].style.color = " hsl(0, 100%, 67%)";
+      resultsValues[0].textContent = "--";
+      resultsValues[1].textContent = "--";
+      resultsValues[2].textContent = "--";
     }
   };
   checkDay();
@@ -173,9 +178,6 @@ calcBtn.addEventListener("click", function () {
       el.classList.remove("animate");
     }, 1000);
   });
-  // resultsValues.forEach((el) => {
-  //   el.classList.add("animate");
-  // });
 });
 
 checkBtn.addEventListener("click", (e) => {

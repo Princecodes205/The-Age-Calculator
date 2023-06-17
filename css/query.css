@@ -6,24 +6,18 @@
   main {
     display: flex;
     flex-direction: column;
-    /* margin: 20rem; */
-    /* margin-left: 5rem; */
-    /* margin-right: 5rem; */
     background-color: hsl(0, 0%, 100%);
     width: 18rem;
-    /* align-items: flex-start; */
     height: auto;
     color: hsl(0, 0%, 8%);
     border-radius: 20px;
     border-bottom-right-radius: 8rem;
-    /* position: relative; */
   }
   main .input_sec input {
     width: 4.3rem;
     font-size: 18px;
   }
   main .div {
-    /* position: absolute; */
     display: flex;
     justify-content: center;
     align-items: center;
